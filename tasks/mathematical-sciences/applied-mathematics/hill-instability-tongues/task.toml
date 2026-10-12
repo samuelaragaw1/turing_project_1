@@ -5,23 +5,32 @@ artifacts = ["/root/result/tongues.json"]
 
 [task]
 name = "terminal-bench-science/hill-instability-tongues"
-description = "Write a program that finds every instability interval (Arnold tongue) of the Hill operator for a given T-periodic potential, polished to 1e-10 at the band edges with monodromy witnesses; it is graded on held-out potentials."
-authors = [{ name = "Task Author", email = "author@example.com" }]
-keywords = ["hill-equation", "floquet-theory", "instability-tongues", "monodromy", "spectral-theory"]
+description = "Write a program that finds every instability tongue of the Hill operator for a given T-periodic Fourier potential over a specified lambda window, with band edges polished to 1e-10 and monodromy witnesses; it is graded on held-out potentials."
+authors = [{ name = "Abdurezak Kedir", email = "abdrezakshemsu885@gmail.com" }]
+keywords = ["hill-equation", "floquet-theory", "instability-tongues", "monodromy-discriminant", "newton-polishing"]
 
 [metadata]
+author_name = "Abdurezak Kedir"
+author_email = "abdrezakshemsu885@gmail.com"
+author_organization = "Independent Researcher"
+author_profile = "https://et.linkedin.com/in/abdurezak-kedir-b79b17284"
 domain = "mathematical-sciences"
 field = "applied-mathematics"
-subfield = "differential equations and spectral theory"
-tags = ["hill-equation", "floquet-multipliers", "band-edges", "newton-polishing", "certification"]
+subfield = "differential equations and spectral theory of periodic operators"
+tags = ["hill-equation", "floquet-multipliers", "band-edges", "spectral-gaps", "certification", "ode-integration"]
 expert_time_estimate_hours = 6.0
+relevant_experience = "AI and ML engineer with a STEM and statistics background, a bachelor's degree in Statistics and Mathematics, and a master's degree in AI and ML Engineering. Has contributed to software-engineering and Terminal-Bench AI-training tasks across more than seven platforms, including AfterQuery, Micro1, Mercor, and Mindrift."
+conflicts_of_interest = "Engaged by Turing as a task author for Terminal-Bench-Science (employee/contractor). No other conflicts."
 
 [verifier]
+# 1800 s wall clock for the submitted program on the held-out instances, plus staging and pytest
 timeout_sec = 2100
 environment_mode = "separate"
 
 [verifier.environment]
 network_mode = "no-network"
+# the instruction promises 4 CPUs for the 1800 s grading run, so the separate verifier sandbox is
+# sized explicitly to match the agent environment rather than relying on defaults
 cpus = 4
 memory_mb = 8192
 
