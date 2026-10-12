@@ -1,0 +1,74 @@
+{
+  "intervals": [
+    {
+      "lambda_left": -2.2631299730280854,
+      "lambda_right": 1.2548256893470022,
+      "left_kind": "antiperiodic",
+      "right_kind": "antiperiodic",
+      "left_delta": -2.0000000000600267,
+      "right_delta": -2.000000000000224,
+      "sample_lambda": -0.5041521418405416,
+      "sample_delta": -1584.447724656083
+    },
+    {
+      "lambda_left": 1.3010714148201536,
+      "lambda_right": 2.5941913883848042,
+      "left_kind": "periodic",
+      "right_kind": "periodic",
+      "left_delta": 2.0000000000001776,
+      "right_delta": 2.00000000000001,
+      "sample_lambda": 1.947631401602479,
+      "sample_delta": 13.805591645336122
+    },
+    {
+      "lambda_left": 3.023192505623961,
+      "lambda_right": 3.5276166334442567,
+      "left_kind": "antiperiodic",
+      "right_kind": "antiperiodic",
+      "left_delta": -2.000000000000005,
+      "right_delta": -2.0000000000000053,
+      "sample_lambda": 3.2754045695341087,
+      "sample_delta": -2.475843542425399
+    },
+    {
+      "lambda_left": 4.6720204353994905,
+      "lambda_right": 5.012290603922364,
+      "left_kind": "periodic",
+      "right_kind": "periodic",
+      "left_delta": 1.9999999999999984,
+      "right_delta": 1.9999999999999987,
+      "sample_lambda": 4.842155519660928,
+      "sample_delta": 2.0860202038200013
+    },
+    {
+      "lambda_left": 6.9108876343335535,
+      "lambda_right": 7.051280725668374,
+      "left_kind": "antiperiodic",
+      "right_kind": "antiperiodic",
+      "left_delta": -1.9999999999999991,
+      "right_delta": -2.0000000000000004,
+      "sample_lambda": 6.9810841800009635,
+      "sample_delta": -2.0083990391590527
+    },
+    {
+      "lambda_left": 9.646291593397114,
+      "lambda_right": 9.679088564212966,
+      "left_kind": "periodic",
+      "right_kind": "periodic",
+      "left_delta": 2.000000000000002,
+      "right_delta": 2.0,
+      "sample_lambda": 9.66269007880504,
+      "sample_delta": 2.0003056578486125
+    },
+    {
+      "lambda_left": 12.865481607829578,
+      "lambda_right": 12.875505587744705,
+      "left_kind": "antiperiodic",
+      "right_kind": "antiperiodic",
+      "left_delta": -1.9999999999999976,
+      "right_delta": -2.0000000000000013,
+      "sample_lambda": 12.870493597787142,
+      "sample_delta": -2.0000206320464953
+    }
+  ]
+}

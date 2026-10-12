@@ -1,0 +1,14 @@
+{
+  "intervals": [
+    {
+      "lambda_left": 16.452035290132894,
+      "lambda_right": 16.649818906814588,
+      "left_kind": "periodic",
+      "right_kind": "periodic",
+      "left_delta": 1.999999999999997,
+      "right_delta": 2.0000000000000013,
+      "sample_lambda": 16.550927098473743,
+      "sample_delta": 2.001636789099054
+    }
+  ]
+}
